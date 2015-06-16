@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Price
+    public enum TicketSort
     {
-        public int PriceID { get; set; }
-        public string PriceName { get; set; }
-        public int PriceQuantity { get; set; }
+        VIP,Regular
     }
 }

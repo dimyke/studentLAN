@@ -55,9 +55,13 @@
     <Compile Include="Game.cs" />
     <Compile Include="GameType.cs" />
     <Compile Include="Gebruiker.cs" />
-    <Compile Include="Price.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="PriceSupport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seat.cs" />
     <Compile Include="Team.cs" />
+    <Compile Include="Ticket.cs" />
+    <Compile Include="TicketSort.cs" />
     <Compile Include="Tournament.cs" />
   </ItemGroup>
   <ItemGroup>
