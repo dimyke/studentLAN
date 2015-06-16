@@ -12,5 +12,10 @@ namespace Domain
         // regular or vip
         public TicketSort Ticketsort { get; set; }
         public int TicketPrice { get; set; }
+
+        public enum TicketType
+        {
+            Saturday, Sunday,Weekend
+        }
     }
 }

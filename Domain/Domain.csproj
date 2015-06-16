@@ -52,10 +52,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bracket.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GameType.cs" />
     <Compile Include="Gebruiker.cs" />
+    <Compile Include="ImageGallery.cs" />
     <Compile Include="Location.cs" />
+    <Compile Include="Newsletter.cs" />
+    <Compile Include="NewsletterSubscribers.cs" />
+    <Compile Include="NewsPost.cs" />
     <Compile Include="PriceSupport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Seat.cs" />

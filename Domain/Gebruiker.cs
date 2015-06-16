@@ -18,5 +18,7 @@ namespace Domain
         public string Voornaam { get; set; }
         public string Postcode { get; set; }
         public DateTime GeboorteDatum { get; set; }
+
+        public bool NewsletterSubscription { get; set; }
     }
 }

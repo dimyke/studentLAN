@@ -12,6 +12,11 @@ namespace Domain
         public string TournamentName { get; set; }
         public int MaxPlayers { get; set; }
 
+        // Saturday or Sunday
+        public enum Day
+        {
+            Saturday, Sunday
+        }
 
         //Foreign Key
         public int GameID { get; set; }
