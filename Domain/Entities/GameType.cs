@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class GameType
+    enum GameType
     {
-        // 3vs3 5vs5 1vs1 of DM,...
-        public int GameTypeID { get; set; }
-        public string GameType { get; set; }
+        RoundRobin, Double_Elimination, Single_Elimination
     }
 }

@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Bracket.cs" />
+    <Compile Include="Entities\BracketRound.cs" />
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\GameType.cs" />
     <Compile Include="Entities\Gebruiker.cs" />

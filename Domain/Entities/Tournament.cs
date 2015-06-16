@@ -20,5 +20,6 @@ namespace Domain
 
         //Foreign Key
         public int GameID { get; set; }
+        public ICollection<Gebruiker> Leden { get; set; }
     }
 }
