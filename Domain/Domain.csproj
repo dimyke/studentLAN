@@ -52,22 +52,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bracket.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="GameType.cs" />
-    <Compile Include="Gebruiker.cs" />
-    <Compile Include="ImageGallery.cs" />
-    <Compile Include="Location.cs" />
-    <Compile Include="Newsletter.cs" />
-    <Compile Include="NewsletterSubscribers.cs" />
-    <Compile Include="NewsPost.cs" />
-    <Compile Include="PriceSupport.cs" />
+    <Compile Include="Entities\Bracket.cs" />
+    <Compile Include="Entities\Game.cs" />
+    <Compile Include="Entities\GameType.cs" />
+    <Compile Include="Entities\Gebruiker.cs" />
+    <Compile Include="Entities\ImageGallery.cs" />
+    <Compile Include="Entities\Location.cs" />
+    <Compile Include="Entities\Newsletter.cs" />
+    <Compile Include="Entities\NewsletterSubscribers.cs" />
+    <Compile Include="Entities\NewsPost.cs" />
+    <Compile Include="Entities\PriceSupport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Seat.cs" />
-    <Compile Include="Team.cs" />
-    <Compile Include="Ticket.cs" />
-    <Compile Include="TicketSort.cs" />
-    <Compile Include="Tournament.cs" />
+    <Compile Include="Entities\Seat.cs" />
+    <Compile Include="Entities\Team.cs" />
+    <Compile Include="Entities\Ticket.cs" />
+    <Compile Include="Entities\TicketSort.cs" />
+    <Compile Include="Entities\Tournament.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
