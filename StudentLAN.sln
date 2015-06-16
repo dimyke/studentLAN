@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLAN", "StudentLAN\StudentLAN.csproj", "{1EAF793C-3AEB-47FA-8CB6-D1560CB73F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0F4766C8-B1B6-498F-9C8C-B6C339AEFD0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{BCED9A43-895D-4495-9EFD-FBFCD327A4E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EAF793C-3AEB-47FA-8CB6-D1560CB73F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAF793C-3AEB-47FA-8CB6-D1560CB73F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAF793C-3AEB-47FA-8CB6-D1560CB73F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAF793C-3AEB-47FA-8CB6-D1560CB73F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4766C8-B1B6-498F-9C8C-B6C339AEFD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4766C8-B1B6-498F-9C8C-B6C339AEFD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4766C8-B1B6-498F-9C8C-B6C339AEFD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4766C8-B1B6-498F-9C8C-B6C339AEFD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCED9A43-895D-4495-9EFD-FBFCD327A4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCED9A43-895D-4495-9EFD-FBFCD327A4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCED9A43-895D-4495-9EFD-FBFCD327A4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCED9A43-895D-4495-9EFD-FBFCD327A4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
