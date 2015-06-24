@@ -10,12 +10,8 @@ namespace Domain
     {
         public int TicketID { get; set; }
         // regular or vip
-        public TicketSort Ticketsort { get; set; }
-        public int TicketPrice { get; set; }
-
-        public enum TicketType
-        {
-            Saturday, Sunday,Weekend
-        }
+        public int TicketTypeID { get; set; }
+        public int GebruikerID { get; set; }
+        public int SeatPlaatsID { get; set; }
     }
 }

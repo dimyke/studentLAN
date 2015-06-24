@@ -17,8 +17,6 @@ namespace Domain
 
         //FK's
         public int TournamentID { get; set; }
-        
-        
-
+        public ICollection<Gebruiker> Deelnemers{ get; set; }
     }
 }

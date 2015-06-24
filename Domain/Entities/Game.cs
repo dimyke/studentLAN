@@ -10,8 +10,5 @@ namespace Domain
     {
         public int GameID { get; set; }
         public string GameNaam { get; set; }
-        public int aantalSpelers { get; set; }
-
-        public int GameTypeID { get; set; }
     }
 }

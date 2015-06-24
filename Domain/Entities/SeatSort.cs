@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public enum TicketSort
+    public enum SeatSort
     {
         VIP,Regular
     }

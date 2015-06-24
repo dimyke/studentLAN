@@ -12,6 +12,10 @@ namespace Domain
         //regular or VIP
         public int SeatRow { get; set; }
         public int SeatColumn { get; set; }
-        public TicketSort SeatSort { get; set; }
+        public SeatSort SeatSort { get; set; }
+        public enum State
+        {
+            Reserved,Booked,Free
+        }
     }
 }
