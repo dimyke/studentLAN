@@ -12,6 +12,5 @@ namespace Domain.Entities
         public int ConsumptieID { get; set; }
         public int Aantal { get; set; }
         public double Bedrag { get; set; }
-
     }
 }

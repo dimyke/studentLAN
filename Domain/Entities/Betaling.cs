@@ -8,7 +8,8 @@ namespace Domain.Entities
 {
     class Betaling
     {
-        public string BetalingID { get; set; }
-
+        public int BetalingID { get; set; }
+        public DateTime Datum { get; set; }
+        public enum soort { cash, paypal, overschrijving}
     }
 }

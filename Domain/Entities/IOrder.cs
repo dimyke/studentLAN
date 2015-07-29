@@ -8,6 +8,9 @@ namespace Domain.Entities
 {
     interface IOrder
     {
+        public int OrderID { get; set; }
 
+        // Foreign Key
+        public string GebruikerID { get; set; }
     }
 }

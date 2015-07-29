@@ -20,5 +20,9 @@ namespace Domain
         public DateTime GeboorteDatum { get; set; }
 
         public bool NewsletterSubscription { get; set; }
+
+        // foreign key
+        public int WalletID { get; set; }
+        public int TeamID { get; set; }
     }
 }

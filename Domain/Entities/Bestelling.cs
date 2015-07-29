@@ -8,8 +8,9 @@ namespace Domain.Entities
 {
     class Bestelling:IOrder
     {
-        public int BestellingID { get; set; }
-        public string GebruikerID { get; set; }
-        public double Bedrag { get; set; }
+        public double TotaalBedrag { get; set; }
+
+        // Foreign Key
+        public int BestlingLijnID { get; set; }
     }
 }
