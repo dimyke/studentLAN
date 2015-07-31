@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IOrderRepository.cs" />
     <Compile Include="EfDbContext.cs" />
     <Compile Include="EfDbInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,6 +66,9 @@
       <Project>{0f4766c8-b1b6-498f-9c8c-b6c339aefd0a}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EntityFramework\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
