@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    interface IOrder
+    public interface IOrder
     {
-        public int OrderID { get; set; }
+        int OrderID { get; set; }
 
         // Foreign Key
-        public string GebruikerID { get; set; }
+        string GebruikerID { get; set; }
     }
 }

@@ -1,14 +1,18 @@
 ﻿using Domain;
 using Microsoft.AspNet.Identity.EntityFramework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.Entity;
+
 
 namespace DAL
 {
-    public class EfDbConext : IdentityDbContext<Gebruiker>
+    public class EfDbContext : IdentityDbContext<Gebruiker>
     {
+        public EfDbContext(): base("StudentLANDBContext")
+        {
+            Database.SetInitializer(new EfDbInitializer());
+            //Configuration.ProxyCreationEnabled = false;
+            //Configuration.LazyLoadingEnabled = false;
+        }
+
     }
 }
