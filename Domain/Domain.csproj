@@ -54,7 +54,7 @@
   <ItemGroup>
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Entities\OrderLine.cs" />
-    <Compile Include="Entities\Betaling.cs" />
+    <Compile Include="Entities\Payment.cs" />
     <Compile Include="Entities\Bracket.cs" />
     <Compile Include="Entities\BracketGame.cs" />
     <Compile Include="Entities\BracketRound.cs" />

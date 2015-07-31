@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
-using System;
-
+﻿using System;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Domain
 {
