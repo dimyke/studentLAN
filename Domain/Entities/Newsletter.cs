@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Newsletter
+    public class Newsletter
     {
         // in case of newsletter implementation
        public int NewsletterID { get; set; }

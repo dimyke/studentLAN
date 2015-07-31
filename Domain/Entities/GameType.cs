@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    enum GameType
+    public enum GameType
     {
         RoundRobin, Double_Elimination, Single_Elimination
     }

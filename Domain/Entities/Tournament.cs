@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Tournament
+    public class Tournament
     {
         public int TournamentID { get; set; }
         public string TournamentName { get; set; }
@@ -20,6 +20,6 @@ namespace Domain
 
         //Foreign Key
         public int GameID { get; set; }
-        public ICollection<Gebruiker> Leden { get; set; }
+        public ICollection<LanUser> Leden { get; set; }
     }
 }

@@ -52,8 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Bestelling.cs" />
-    <Compile Include="Entities\BestellingLijn.cs" />
+    <Compile Include="Entities\Order.cs" />
+    <Compile Include="Entities\OrderLine.cs" />
     <Compile Include="Entities\Betaling.cs" />
     <Compile Include="Entities\Bracket.cs" />
     <Compile Include="Entities\BracketGame.cs" />
@@ -61,7 +61,7 @@
     <Compile Include="Entities\FoodDrinks.cs" />
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\GameType.cs" />
-    <Compile Include="Entities\Gebruiker.cs" />
+    <Compile Include="Entities\LanUser.cs" />
     <Compile Include="Entities\ImageGallery.cs" />
     <Compile Include="Entities\IOrder.cs" />
     <Compile Include="Entities\Location.cs" />

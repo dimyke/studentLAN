@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Ticket
+    public class Ticket
     {
         public int TicketID { get; set; }
         // regular or vip

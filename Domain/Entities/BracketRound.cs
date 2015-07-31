@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    class BracketRound
+    public class BracketRound
     {
         public int BracketRoundID { get; set; }
         public string WinnerID { get; set; }

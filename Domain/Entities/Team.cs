@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Team
+    public class Team
     {
         public int TeamID { get; set; }
         public string TeamNaam { get; set; }
-        public ICollection<Gebruiker> Leden { get; set; }
+        public ICollection<LanUser> Leden { get; set; }
     }
 }

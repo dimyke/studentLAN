@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    class Wallet
+    public class Wallet
     {
         public string WalletID { get; set; }
         public int bedrag { get; set; }

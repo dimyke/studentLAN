@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Bracket
+    public class Bracket
     {
         // een toernooi kan meerdere brackets hebben (meerdere poules)
         public int BracketID { get; set; }
@@ -17,6 +17,6 @@ namespace Domain
 
         //FK's
         public int TournamentID { get; set; }
-        public ICollection<Gebruiker> Deelnemers{ get; set; }
+        public ICollection<LanUser> Deelnemers{ get; set; }
     }
 }

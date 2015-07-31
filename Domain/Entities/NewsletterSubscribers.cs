@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class NewsletterSubscribers
+    public class NewsletterSubscribers
     {
         // not sure if we need this?
     }

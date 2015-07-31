@@ -1,13 +1,10 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Domain
 {
-    public class Gebruiker : IdentityUser
+    public class LanUser : IdentityUser
     {
         public override string Id { get; set; }
         public override string UserName { get; set; }
@@ -18,6 +15,11 @@ namespace Domain
         public string Voornaam { get; set; }
         public string Postcode { get; set; }
         public DateTime GeboorteDatum { get; set; }
+        public string Origin { get; set; }
+        public string Steam { get; set; }
+        public string Nickname { get; set; }
+        public string BatlleNet { get; set; }
+        public string Wargaming { get; set; }
 
         public bool NewsletterSubscription { get; set; }
 

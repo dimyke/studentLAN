@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    class Location
+    public class Location
     {
         public int LocationID { get; set; }
         public int MaxPlayers { get; set; }
