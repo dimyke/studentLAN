@@ -13,7 +13,9 @@ namespace DAL.Contracts
 
         IEnumerable<Order> ReadOrders();
 
-        void updateOrder(int orderNumber);
+        //TODO wat gebeurt bij een update? Toevoegen van een lijn?
+        void UpdateOrder(int orderNumber);
+        void AddOrderLine(OrderLine line);
         void ToggleDeletedSatus();
 
     }

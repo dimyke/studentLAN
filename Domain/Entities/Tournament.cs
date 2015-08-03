@@ -14,6 +14,10 @@ namespace Domain
             Saturday, Sunday
         }
 
+        public enum status
+        {
+            Open, Full, NowPlaying, Ended
+        }
         //Foreign Key
         public int GameID { get; set; }
         public ICollection<LanUser> Leden { get; set; }
