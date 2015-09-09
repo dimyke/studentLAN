@@ -2,9 +2,9 @@
 {
     public interface IOrder
     {
-        int OrderID { get; set; }
+        int OrderId { get; set; }
         bool Deleted { get; set; }
         // Foreign Key
-        string GebruikerID { get; set; }
+        string GebruikerId { get; set; }
     }
 }

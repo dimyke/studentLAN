@@ -2,10 +2,10 @@
 {
     public class Ticket
     {
-        public int TicketID { get; set; }
+        public int TicketId { get; set; }
         // regular or vip
-        public int TicketTypeID { get; set; }
-        public int GebruikerID { get; set; }
-        public int SeatPlaatsID { get; set; }
+        public int TicketTypeId { get; set; }
+        public int GebruikerId { get; set; }
+        public int SeatPlaatsId { get; set; }
     }
 }

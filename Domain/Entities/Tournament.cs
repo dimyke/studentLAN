@@ -4,7 +4,7 @@ namespace Domain
 {
     public class Tournament
     {
-        public int TournamentID { get; set; }
+        public int TournamentId { get; set; }
         public string TournamentName { get; set; }
         public int MaxPlayers { get; set; }
 
@@ -14,13 +14,14 @@ namespace Domain
             Saturday, Sunday
         }
 
-        public enum status
+        public enum Status
         {
             Open, Full, NowPlaying, Ended
         }
 
         //Foreign Key
-        public int GameID { get; set; }
+        public int GameId { get; set; }
+        public ICollection<Bracket> Brackets { get; set; }
         public ICollection<LanUser> Leden { get; set; }
     }
 }

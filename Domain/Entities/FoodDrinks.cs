@@ -2,8 +2,8 @@
 {
     public class FoodDrinks
     {
-        public int ConsumptieID { get; set; }
+        public int ConsumptieId { get; set; }
         public string Naam { get; set; }
-        public double prijs { get; set; }
+        public double Prijs { get; set; }
     }
 }

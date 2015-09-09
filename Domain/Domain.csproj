@@ -57,7 +57,6 @@
     <Compile Include="Entities\Payment.cs" />
     <Compile Include="Entities\Bracket.cs" />
     <Compile Include="Entities\BracketGame.cs" />
-    <Compile Include="Entities\BracketRound.cs" />
     <Compile Include="Entities\FoodDrinks.cs" />
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\GameType.cs" />

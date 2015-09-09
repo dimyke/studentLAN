@@ -23,7 +23,7 @@ namespace Domain
         public bool NewsletterSubscription { get; set; }
 
         // foreign key
-        public int WalletID { get; set; }
-        public int TeamID { get; set; }
+        public int WalletId { get; set; }
+        public int TeamId { get; set; }
     }
 }

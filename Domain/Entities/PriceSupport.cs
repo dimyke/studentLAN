@@ -2,7 +2,7 @@
 {
     public class PriceSupport
     {
-        public int PriceID { get; set; }
+        public int PriceId { get; set; }
         public string PriceName { get; set; }
         public int PriceQuantity { get; set; }
     }

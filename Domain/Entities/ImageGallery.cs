@@ -13,7 +13,7 @@ namespace Domain
         }
 
         [Key]
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string ImagePath { get; set; }
         public List<string> ImageList { get; set; }

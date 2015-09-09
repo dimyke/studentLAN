@@ -2,8 +2,8 @@
 {
     public class Location
     {
-        public int LocationID { get; set; }
+        public int LocationId { get; set; }
         public int MaxPlayers { get; set; }
-        public int SeatID { get; set; }
+        public int SeatId { get; set; }
     }
 }

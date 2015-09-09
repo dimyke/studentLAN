@@ -2,8 +2,8 @@
 {
     public class OrderLine
     {
-        public int BestellingLijnID { get; set; }
-        public int ConsumptieID { get; set; }
+        public int BestellingLijnId { get; set; }
+        public int ConsumptieId { get; set; }
         public int Aantal { get; set; }
         public double Bedrag { get; set; }
     }

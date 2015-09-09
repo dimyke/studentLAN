@@ -1,11 +1,7 @@
-﻿using Domain.Entities;
-using Microsoft.AspNet.Identity.EntityFramework;
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Data.Entity.Validation;
-
+﻿using System.Data.Entity;
 using Domain;
-
+using Domain.Entities;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace DAL
 {

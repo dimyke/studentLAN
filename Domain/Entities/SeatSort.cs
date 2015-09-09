@@ -2,6 +2,6 @@
 {
     public enum SeatSort
     {
-        VIP,Regular
+        Vip,Regular
     }
 }

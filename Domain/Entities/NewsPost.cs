@@ -2,7 +2,7 @@
 {
     public class NewsPost
     {
-        public int NewsPostID { get; set; }
+        public int NewsPostId { get; set; }
         public string Text { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class Seat
     {
-        public int SeatID { get; set; }
+        public int SeatId { get; set; }
         //regular or VIP
         public int EditionNumber { get; set; } // Edition 1,2,3... 
         public int SeatRow { get; set; }
