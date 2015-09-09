@@ -52,7 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IAccountRepository.cs" />
+    <Compile Include="Contracts\IBracketRepository.cs" />
+    <Compile Include="Contracts\IFoodDrinksRepository.cs" />
     <Compile Include="Contracts\IOrderRepository.cs" />
+    <Compile Include="Contracts\ISeatRepository.cs" />
+    <Compile Include="Contracts\ITournamentRepository.cs" />
     <Compile Include="EfDbContext.cs" />
     <Compile Include="EfDbInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

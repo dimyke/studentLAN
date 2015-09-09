@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Domain.Entities;
 
 namespace Domain
 {
@@ -14,5 +15,6 @@ namespace Domain
         //FK's
         public int TournamentID { get; set; }
         public ICollection<LanUser> Deelnemers{ get; set; }
+        public ICollection<BracketGame>  BracketGames { get; set; }
     }
 }

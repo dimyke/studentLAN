@@ -18,6 +18,7 @@ namespace Domain
         {
             Open, Full, NowPlaying, Ended
         }
+
         //Foreign Key
         public int GameID { get; set; }
         public ICollection<LanUser> Leden { get; set; }
